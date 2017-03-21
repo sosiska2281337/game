@@ -226,7 +226,8 @@ int main()
             sf::Time t2 = sf::milliseconds(3000);
             if (!font.loadFromFile("arial.ttf"))
             {
-             // ошибка...
+             // ошибка... 00000000000х000
+                //Я пробывал переустанавливать винду, но и3 этого ничего не вышло
             }
             // select the font
             text.setFont(font); // font is a sf::Font
